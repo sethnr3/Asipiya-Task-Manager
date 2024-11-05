@@ -1,0 +1,17 @@
+1. Install and run Xampp.
+
+2. Then start apache and MySQL actions and run phpMyAdmin.
+
+3. Then create a new user account using below details,
+
+  host: 'localhost',
+  user: 'newuser',           
+  password: '12345'
+
+4. Then create new database and name it as 'task_manager'.
+
+5. Then import tasks table to task_manager database (task table is SQL file named tasks in the folder)
+
+now database is initiated...
+
+ 

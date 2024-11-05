@@ -1,0 +1,75 @@
+/* Root container */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Arial', sans-serif; /* Added a more modern font */
+}
+
+/* Content container */
+.container {
+  background-color: #619acf; /* Softer background color */
+  padding: 2rem; /* Increased padding for better spacing */
+  border-radius: 1rem; /* Rounded corners for a smoother look */
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1); /* Softer shadows */
+}
+
+/* Input fields and buttons */
+input, button {
+  outline: none;
+  border: 1px solid #e2e8f0; /* Light border for consistency */
+  padding: 0.75rem 1rem; /* Increased padding for larger clickable area */
+  border-radius: 0.5rem; /* Rounded corners */
+  font-size: 1rem; /* Increased font size */
+}
+
+button {
+  background-color: #4a5568; /* Darker button color */
+  color: #fff; /* White text for contrast */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+}
+
+button:hover {
+  background-color: #2d3748; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+button:active {
+  background-color: #2c5282; /* Different color on active */
+  transform: translateY(0); /* Reset transform on active */
+}
+
+input:focus {
+  border-color: #63b3ed; /* Softer blue on focus */
+  box-shadow: 0 0 0 3px rgba(99, 179, 237, 0.4); /* Softer box-shadow on focus */
+}
+
+/* Strikethrough text */
+.line-through {
+  color: #a0aec0;
+  text-decoration: line-through; /* Added text-decoration for clarity */
+}
+
+/* Small text paragraphs */
+p.text-sm {
+  color: #718096;
+  font-size: 0.875rem; /* Added specific font size */
+}
+
+.NoTask{
+  color: rgb(202, 31, 31);
+}
+/* Flex container for buttons */
+.flex {
+  display: flex;
+  justify-content: center; /* Centered flex items */
+  gap: 0.5rem; /* Replaced margin-left with gap for consistent spacing */
+}
+
+.flex > button {
+  margin-left: 0; /* Reset margin-left to use gap */
+}
